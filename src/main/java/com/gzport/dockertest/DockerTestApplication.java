@@ -16,7 +16,7 @@ public class DockerTestApplication {
 
     @GetMapping(value = "/hi")
     public Object hi() {
-        return "Hi!";
+        return "Hi! I'm chenjin";
     }
 
     public static void main(String[] args) {
