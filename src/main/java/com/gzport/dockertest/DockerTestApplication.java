@@ -14,6 +14,11 @@ public class DockerTestApplication {
         return "Hello SpringBoot with Docker!";
     }
 
+    @GetMapping(value = "/hi")
+    public Object hi() {
+        return "Hi!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(DockerTestApplication.class, args);
     }
